@@ -1,0 +1,71 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 40%;
+    margin-top: 10%;
+    border:  1px solid black;
+    padding: 10px;
+    width: max-content;
+    background-color: black;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+input{
+  outline: none;
+  width: 320px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: black;
+  color: #ffff;
+  border: 1px solid #ffff;
+}
+.btnnum{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.btnnum button{
+    background-color: rgb(255, 183, 88);
+    font-size: 14px;
+}
+.btnoperation{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+.btnoperation button{
+    background-color: rgb(121, 155, 255);
+    font-size: 20px;
+}
+button{
+    padding: 20px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+}
+button:active{
+    border: 1px solid rgb(255, 255, 255);
+}
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
